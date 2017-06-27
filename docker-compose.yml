@@ -1,0 +1,8 @@
+version: '2'
+services:
+  app:
+    image: ansible/ansible:ubuntu1604
+    command: sleep 99999999
+    volumes:
+      - .:/root/kargo
+      - ~/.ssh:/root/.ssh
