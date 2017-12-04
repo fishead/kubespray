@@ -17,7 +17,7 @@ dnsmasq_nanny_image_repo: "fishead/gcr.io.google_containers.k8s-dns-dnsmasq-nann
 dnsmasq_nanny_image_tag: "{{ kubedns_version }}"
 dnsmasq_sidecar_image_repo: "fishead/gcr.io.google_containers.k8s-dns-sidecar-amd64"
 dnsmasq_sidecar_image_tag: "{{ kubedns_version }}"
-kubednsautoscaler_image_repo: "gcr.io/google_containers/cluster-proportional-autoscaler-amd64"
+kubednsautoscaler_image_repo: "fishead/gcr.io.google_containers.cluster-proportional-autoscaler-amd64"
 kubednsautoscaler_image_tag: "{{ kubednsautoscaler_version }}"
 
 # Netchecker
@@ -40,7 +40,7 @@ netchecker_server_memory_requests: 64M
 
 # Dashboard
 dashboard_enabled: false
-dashboard_image_repo: gcr.io/google_containers/kubernetes-dashboard-amd64
+dashboard_image_repo: fishead/gcr.io.google_containers.kubernetes-dashboard-amd64
 dashboard_image_tag: v1.6.3
 
 # Limits for dashboard
